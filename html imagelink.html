@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Image Hyperlink Example</title>
+   </head>
+	
+   <body>
+      <p>Click following link</p>
+      <a href = "https://www.tutorialspoint.com" target = "_self"> 
+         <img src = "images1.png" alt = "Tutorials Point" border = "0"/> 
+      </a>
+   </body>
+	
+</html>
+<!-- Mouse-Sensitive Images -->
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>ISMAP Hyperlink Example</title>
+   </head>
+	
+   <body>
+      <p>Click following link</p>
+      
+      <a href = "/cgi-bin/ismap.cgi" target = "_self"> 
+         <img ismap src = "/image1.png" alt = "Tutorials Point" border = "0"/> 
+      </a>
+   </body>
+	
+</html>
+image links
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>USEMAP Hyperlink Example</title>
+   </head>
+	
+   <body>
+      <p>Search and click the hotspot</p>
+      <img src = /images/html.gif alt = "HTML Map" border = "0" usemap = "#html"/>
+      <!-- Create  Mappings -->
+      
+      <map name = "html">
+         <area shape = "circle" coords = "80,80,20" 
+            href = "/css/index.htm" alt = "CSS Link" target = "_self" />
+         
+         <area shape = "rect" coords = "5,5,40,40" alt = "jQuery Link" 
+            href = "/jquery/index.htm" target = "_self" />
+      </map>
+   </body>
+   
+</html>

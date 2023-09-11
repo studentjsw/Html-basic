@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Javascript External Script</title>
+      <script src = "/html/script.js" type = "text/javascript"/></script>
+   </head>
+
+   <body>
+      <input type = "button" onclick = "Hello();" name = "ok" value = "Click Me" />
+   </body>
+
+</html>
+<!-- Internal Script -->
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>JavaScript Internal Script</title>
+      <base href = "https://www.tutorialspoint.com/" />
+      
+      <script type = "text/JavaScript">
+         function Hello() {
+            alert("Hello, World");
+         }
+      </script>
+   </head>
+
+   <body>
+      <input type = "button" onclick = "Hello();" name = "ok" value = "Click Me" />
+   </body>
+
+</html>
+<!-- Event Handlers -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event handler</title>
+    <base href="https://www.tutorialspoint.com/" />
+    <script type="text/javascript">
+        function Eventhandler(){
+            alert('heloo')
+        }
+    </script>
+</head>
+<body>
+    p onmouseover = "EventHandler();">Bring your mouse here to see an alert</p>
+</body>
+</html>
